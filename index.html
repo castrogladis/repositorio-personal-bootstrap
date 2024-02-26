@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gladis Castro">
+    <meta name="description" content="Portafolio de Desarrollo Web, Gladis Castro">
+    <meta name="keywors" content="HTML,CSS,JavaScript,React">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="./imagenes/favicon.png">
+    <!--Titulo-->
+    <title>Gladis Castro | Desarrollo Web Front-End</title>
+</head>
+<body>
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+                <img  src="./imagenes/desarrollador-de-software.png" width="50px" alt="icono"/>
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#hero">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre-mi">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#articulos">Artículos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonios">Testimonios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos-recientes">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!--Secction-->
+    <section id="hero" class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-perfil" src="./imagenes/fotoperfil.jpg" alt="Foto perfil Gladis Castro">
+        <h1>Hola, soy Gladis Castro</h1>
+        <h2>Desarrollo sitios web y creo aplicaciones</h2>
+      </div>
+
+      <div class="hero-inferior">
+        <img class="hero-imagen-inferior img-fluid" src="imagenes/hero-inferior.svg" alt="monitor, laptop y logos de html, css, js, react">
+      </div>
+    </section>
+
+    <!--Sobre mi-->
+
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Gladis Castro</h2>
+        <p class="seccion-texto">Desarrolladora Web Frontend Jr | React.js | Apasionada por la creación de experiencias digitales innovadoras.</p>
+      </div>
+    </section>
+
+    <!--Experiencia-->
+    <section id="experiencia" class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!--Desarrollo Web-->
+          <div class="columna col-12 col-md-4 ">
+            <i class="bi bi-laptop"></i>
+            <h3 class="experiencia-titulo">Desarrollo Web</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore assumenda eius dolorem doloremque cupiditate consectetur nobis soluta delectus suscipit velit in vitae aliquam pariatur qui, amet rerum perspiciatis sint voluptatum.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+          <!--Estudios-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <h3 class="experiencia-titulo">Estudios</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore assumenda eius dolorem doloremque cupiditate consectetur nobis soluta delectus suscipit velit in vitae aliquam pariatur qui, amet rerum perspiciatis sint voluptatum.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">@DaniCode</span>
+              <span class="badge text-bg-primary">Platzi</span>
+              <span class="badge text-bg-primary">freeCodeCamp</span>
+            </div>
+          </div>
+          <!--Hobbies-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <h3 class="experiencia-titulo">Hobbies</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore assumenda eius dolorem doloremque cupiditate consectetur nobis soluta delectus suscipit velit in vitae aliquam pariatur qui, amet rerum perspiciatis sint voluptatum.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Entrenar</span>
+              <span class="badge text-bg-primary">Bailar</span>
+              <span class="badge text-bg-primary">Estudiar</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Proyectos-->
+    <section id="proyectos-recientes" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis Proyectos</h2>
+      <h3 class="seccion-descipcion">Estos son algunos de mis proyectos.</h3>
+      <!--Galeria de proyectos-->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+                <img src="imagenes/proyecto1.png" alt="Proyecto 1">
+                <div class="overlay">
+                  <p>Proyecto 1</p>
+                  <div class="contenedor-iconos">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+                <img src="imagenes/proyecto2.png" alt="Proyecto 1">
+                <div class="overlay">
+                  <p>Proyecto 2</p>
+                  <div class="contenedor-iconos">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+           <!-- Proyecto 3 -->
+           <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+                <img src="imagenes/proyecto3.png" alt="Proyecto 3">
+                <div class="overlay">
+                  <p>Proyecto 3</p>
+                  <div class="contenedor-iconos">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+                <img src="imagenes/proyecto4.png" alt="Proyecto 3">
+                <div class="overlay">
+                  <p>Proyecto 4</p>
+                  <div class="contenedor-iconos">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+                <img src="imagenes/proyecto5.png" alt="Proyecto 3">
+                <div class="overlay">
+                  <p>Proyecto 5</p>
+                  <div class="contenedor-iconos">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+                <img src="imagenes/proyecto6.png" alt="Proyecto 3">
+                <div class="overlay">
+                  <p>Proyecto 6</p>
+                  <div class="contenedor-iconos">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+        Ver mas proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+    </section>
+
+    <!--Lista de articulos-->
+    <section id="articulos" class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Contenido de Valor</h2>
+      <div class="card">
+        <div class="card-header text-center">
+          Videos inspiradores @Dani-code
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://youtu.be/sRd6ChQl9uo?si=3ROEmdBUaO-s_dIn" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Git & GitHub Desde Cero
+            </li>
+          </a>
+          <a href="https://youtu.be/37WqS2tLfBY?si=c-TCyGlDbMcSpW0_" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              ¿Que es y para que sirve NPM?
+            </li>
+          </a>
+          <a href="https://youtu.be/ksH871VZZMU?si=I5lwEYntBK81okJQ" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              TypeScript Desde Cero | INTRODUCCIÓN.
+            </li>
+          </a>
+          <a href="https://youtu.be/1j55-po2TpY?si=Y2Yn07p0XKkcDR4I" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              PHP Básico Desde Cero | TIPOS DE DATOS.
+            </li>
+          </a>
+          <a href="https://youtu.be/0lCO1pYqU6M?si=YnzkoKeCozYmw1Br" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              PHP Intermedio | EXPRESIONES REGULARES
+            </li>
+          </a>
+        </ul>
+      </div>
+      
+      <a href="https://www.youtube.com/channel/UCHn-Z7674T0YFBdOw49rg0w" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver mas Videos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!--Testimonios-->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo texto-negro">Testimonios</h2>
+      <h3 class="seccion-descipcion">Estos son algunos testimonios</h3>
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark  slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="./imagenes/cliente1.svg" alt="primer cliente">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit consequuntur consequatur numquam expedita repellat delectus!</p>
+              <div class="testimonio-info">
+                <p class="cliente">Daniel</p>
+                <p class="cargo">Coordinador de IT</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="./imagenes/cliente2.svg" alt="segundo cliente">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit consequuntur consequatur numquam expedita repellat delectus!</p>
+              <div class="testimonio-info">
+                <p class="cliente">Gladis</p>
+                <p class="cargo">Desarrolladora Web | Frontend</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="./imagenes/cliente3.svg" alt="tercer cliente">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit consequuntur consequatur numquam expedita repellat delectus!</p>
+              <div class="testimonio-info">
+                <p class="cliente">Alejandro</p>
+                <p class="cargo">Desarrollador Web | Backend</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+
+    <section class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container rectangulo d-flex justify-content-evenly text-center">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 description">
+              Contáctame para iniciar tu proyecto
+            </div>
+            <div class="col-12 col-md-4 description">
+              <a href="mailto:info@tusitiowebpro.tech">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Footer -->
+    <footer class="seccion-oscura d-flex flex-column justify-content-center align-items-center">
+      <img class="footer-icono" src="./imagenes/desarrollador-de-software.png" alt="logo de Portafolio">
+      <p class="footer-texto text-center">Lorem ipsum dolor sit, amet <br> Lorem ipsum dolor sit, amet</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#instagram" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="#linkedin" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>        
+        </a>
+        <a href="mailto:info@tusitiowebpro.tech" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope-at-fill"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">
+        &#169; Creado por Gladis Castro | 2024  
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!--d-flex flex-column justify-content-center align-items-center-->
